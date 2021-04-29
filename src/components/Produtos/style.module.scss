@@ -1,0 +1,31 @@
+.container {
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+
+    .produto {
+        text-align: center;
+        cursor: pointer;
+
+        .boxProduto {
+           margin-bottom: 2rem;
+            img {
+                border-radius: .5rem;
+            }
+        }
+    }
+}
+
+.animeLeft {
+    transform: translateX(-20px);
+    opacity: 0;
+    animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
+    to {
+        transform: initial;
+        opacity: initial;
+    }
+}

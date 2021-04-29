@@ -1,0 +1,18 @@
+.navLinks {
+    display: flex;
+
+    li {
+        margin-right: 1.6rem;
+
+
+        .links {
+            color: var(--black);
+            padding: 1.5rem 2rem;
+            border-radius: 1rem;
+            background-color: var(--gray-100);
+            letter-spacing: .3rem;
+        }
+    }
+
+
+}

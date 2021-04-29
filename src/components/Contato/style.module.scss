@@ -1,0 +1,37 @@
+.contact {
+    padding: 5rem 0;
+    display: flex;
+
+    .content, .imgBox {
+        flex: 1;
+    }
+
+    .imgBox {
+        border-radius: 100%;
+    }
+
+    .content {
+        align-self: center;
+        line-height: 5rem;
+    }
+
+    img {
+        width: 400px;
+        border-radius: .5rem;
+    }
+
+}
+
+
+.animeLeft {
+    transform: translateX(-20px);
+    opacity: 0;
+    animation: animeLeft .3s forwards;
+}
+
+@keyframes animeLeft {
+    to {
+        transform: initial;
+        opacity: initial;
+    }
+}
